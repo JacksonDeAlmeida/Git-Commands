@@ -33,5 +33,9 @@ $ git reset --hard HEAD~1
 
 Abrir versões anteriores.
 --
-git checkout <codigo-do-commit>
-  
+git checkout [codigo-do-commit]
+
+Associando um repositorio local ao remoto
+--
+git remote add origin [url-do-repositorio]
+git remote set-url origin [url-do-repositorio]
