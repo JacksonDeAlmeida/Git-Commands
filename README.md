@@ -1,6 +1,9 @@
 # Git-Commands
 This repository has a description of some git commands.
 
+Comandos iniciais:
+--
+
 git init - inicializa um repositorio.
 
 git status - verifica as modificações.
@@ -17,26 +20,30 @@ git log --oneline - Exibe os commits relizado de forma resuimida / Historico de 
 
 [ESQ] e depois "q!" - sai do editor VIM.
 
-Retornar ao estado anterior das alterações
+Retornar ao estado anterior das alterações:
 --
 git clear -df
 
 git checkout -- .
 
-Desfazendo o ultimo commit, mas permanecendo com as alterações no arquivo.
+Desfazendo o ultimo commit, mas permanecendo com as alterações no arquivo:
 --
 $ git reset --soft HEAD~1
 
-Desfazendo o ultimo commit com as alterações no arquivo.
+Desfazendo o ultimo commit com as alterações no arquivo:
 --
 $ git reset --hard HEAD~1
 
-Abrir versões anteriores.
+Abrir versões anteriores:
 --
 git checkout [codigo-do-commit]
 
-Associando um repositorio local ao remoto
+Associando um repositorio local ao remoto:
 --
 git remote add origin [url-do-repositorio]
 
 git remote set-url origin [url-do-repositorio]
+
+Atualizar repositorio local:
+--
+git pull origin master
