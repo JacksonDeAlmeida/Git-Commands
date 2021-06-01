@@ -23,3 +23,7 @@ git clear -df
 
 git checkout -- .
 
+# ========================
+# Desfazendo o ultimo commit, mas permanecendo com as alterações no arquivo.
+
+git reset --soft HEAD~1
