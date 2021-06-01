@@ -17,13 +17,11 @@ git log --oneline - Exibe os commits relizado de forma resuimida / Historico de 
 
 [ESQ] e depois "q!" - sai do editor VIM.
 
-# Retornar ao estado anterior das alterações
-
+Retornar ao estado anterior das alterações
+--
 git clear -df
 
 git checkout -- .
-
-# Reset
 
 Desfazendo o ultimo commit, mas permanecendo com as alterações no arquivo.
 --
@@ -32,3 +30,8 @@ $ git reset --soft HEAD~1
 Desfazendo o ultimo commit com as alterações no arquivo.
 --
 $ git reset --hard HEAD~1
+
+Abrir versões anteriores.
+--
+git checkout <codigo-do-commit>
+  
