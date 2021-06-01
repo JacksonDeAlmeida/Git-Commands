@@ -38,4 +38,5 @@ git checkout [codigo-do-commit]
 Associando um repositorio local ao remoto
 --
 git remote add origin [url-do-repositorio]
+
 git remote set-url origin [url-do-repositorio]
