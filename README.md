@@ -13,7 +13,7 @@ git push - Envia o commit, salvando em seu software de versionamento, como githu
 
 git log - Exibe os commits realizados de forma completa.
 
-git log --oneline - Exibe os commits relizado de forma resuimida.
+git log --oneline - Exibe os commits relizado de forma resuimida / Historico de commits.
 
 [ESQ] e depois "q!" - sai do editor VIM.
 
